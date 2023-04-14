@@ -1,2 +1,4 @@
-github.com/uia-worker/misc v0.0.0-20230306201706-92c01d4aa553 h1:GG7TZQikBrgnHTWPww3Pj32XzKpMQ80sCN562TgOPyo=
-github.com/uia-worker/misc v0.0.0-20230306201706-92c01d4aa553/go.mod h1:KpplOC8PKuvyVl7IsIiGZGaEXNxK54Dgj0EoV7Czork=
+github.com/B4KO/funtemps v0.0.0-20230220171444-ff04b16b71bf h1:pQ7lP5T47mb29Fxmx4xYEE6RReMSLePunSWf9rCr4L0=
+github.com/B4KO/funtemps v0.0.0-20230220171444-ff04b16b71bf/go.mod h1:Nzjh0eX6SnlWQ76h0MOmsmpp55i1JY/ZoPSv++NV0s8=
+golang.org/x/text v0.7.0 h1:4BRB4x83lYWy72KwLD/qYDuTu7q9PjSagHvijDw7cLo=
+golang.org/x/text v0.7.0/go.mod h1:mrYo+phRRbMaCq/xk9113O4dZlRixOauAjOtrjsXDZ8=
