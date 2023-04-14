@@ -77,14 +77,13 @@ func CalculateAverageCelsius(filePath string) float64 {
 	}
 	defer inputFile.Close()
 
-	// Create a new CSV reader with a custom delimiter (semicolon)
 	inputReader := csv.NewReader(inputFile)
 	inputReader.Comma = ';'
 
 	var sumCelsius float64
 	var count int
 
-	// Read and process records from the input CSV file
+
 	headerProcessed := false
 	for {
 		record, err := inputReader.Read()
@@ -104,7 +103,6 @@ func CalculateAverageCelsius(filePath string) float64 {
 			continue
 		}
 
-		// Calculate the sum of Celsius and Fahrenheit temperatures
 		if record[3] != "" {
 			lufttemperatur, err := strconv.ParseFloat(record[3], 64)
 			if err != nil {
@@ -116,7 +114,7 @@ func CalculateAverageCelsius(filePath string) float64 {
 		}
 	}
 
-	// Calculate the average temperatures
+
 	avgCelsius := sumCelsius / float64(count)
 
 	return avgCelsius
